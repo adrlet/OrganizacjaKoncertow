@@ -1,0 +1,1 @@
+Projekt zakładał udostępnienie klientom usługi automatycznego generowania planu koncertowego w oparciu o wprowadzone dane i artysów/firmy współpracujących z właścicielami witryny.

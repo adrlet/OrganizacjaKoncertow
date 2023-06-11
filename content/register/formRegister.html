@@ -1,0 +1,56 @@
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<hr>
+<p class="font-weight-bold mx-sm-2">Rejestracja</p>
+<form action="content/register/register.php" method="post">
+	<div class="form-row">
+		<div class="form-group col-md-2 mx-sm-2">
+		  <label for="firstName" class="sr-only"><b>Imię</b></label>
+		  <input type="text" class="form-control" placeholder="Imię" name="firstName" id="firstName" required>
+		</div>
+		<div class="form-group col-md-2">
+		  <label for="surname" class="sr-only"><b>Nazwisko</b></label>
+		  <input type="text" class="form-control" placeholder="Nazwisko" name="surname" id="surname" required>
+		</div>
+	</div>
+	
+	<div class="form-row">
+		<div class="form-group col-md-2 mx-sm-2">
+		  <label for="e_mail" class="sr-only"><b>E-mail</b></label>
+		  <input type="text" class="form-control" placeholder="E-mail" name="e_mail" id="e_mail" required>
+		</div>
+		<div class="form-group col-md-2 ">
+		  <label for="telephone" class="sr-only"><b>Numer telefonu</b></label>
+		  <input type="text" class="form-control" placeholder="Numer telefonu" name="telephone" id="telephone">
+		</div>
+	 </div>
+	
+	<div class="form-row col-md-14">	
+		<div class="form-group col-md-4 mx-sm-2">
+			<label for="address" class="sr-only">><b>Adres</b></label>
+			<input type="text" class="form-control" placeholder="Adres" name="address" id="address">
+		</div>
+	</div>
+	
+	<div class="form-row">
+		<div class="form-group col-md-2 mx-sm-2">
+		  <label for="pass" class="sr-only"><b>Hasło</b></label>
+		  <input type="password" class="form-control" placeholder="Wpisz hasło" name="pass" id="pass" required>
+		</div>
+		<div class="form-group col-md-2 ">
+		  <label for="passRepeat" class="sr-only"><b>Powtórz hasło</b></label>
+		  <input type="password" class="form-control" placeholder="Wpisz ponownie hasło" name="passRepeat" id="passRepeat" required>
+		</div>
+    </div>
+	<div class="form-row">
+		<div class="form-group col-md-2 mx-sm-2">
+			<p>Utworzenie konta jest tożsame ze zgodą z naszym <a href="#">regulaminem</a></p>
+		</div>	
+		<div class="form-group col-md-2 ">
+			<button type="submit" name="register" value="register" class="btn btn-primary">Utwórz konto</button>
+		</div>
+	</div>
+</form>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<hr>
+</head>
